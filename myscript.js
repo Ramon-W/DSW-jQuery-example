@@ -9,4 +9,7 @@ $(document).ready(function() {
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
 	});
+	$("img").mouseenter(function(){
+        $("div").animate({left: '250px'});
+        });
 });
