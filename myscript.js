@@ -15,6 +15,6 @@ $(document).ready(function() {
                 $("img").animate({left: '250px'});
         });
 	$(".disappear").mouseenter(function() {
-		alert("Annoying pop-up");
+		alert("Annoying pop-up, avoid the second and third paragraph.");
 	});
 });
