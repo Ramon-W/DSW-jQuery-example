@@ -6,6 +6,7 @@ $(document).ready(function() {
 	$("#p1").click(function() {
 		$(".disappear").hide();
 		$("body").css({"background-color": "purple"});
+		$("p").css({"color": "green"});
 	});
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
