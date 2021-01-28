@@ -5,11 +5,12 @@ $(document).ready(function() {
 	});
 	$("#p1").click(function() {
 		$(".disappear").hide();
+		$("body").css({"background-color": "purple"});
 	});
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
 	});
 	$("img").mouseenter(function(){
-        $("img").animate({left: '250px'});
+                $("img").animate({left: '250px'});
         });
 });
