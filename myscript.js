@@ -10,6 +10,6 @@ $(document).ready(function() {
 		$("img").toggle();
 	});
 	$("img").mouseenter(function(){
-        $("div").animate({left: '250px'});
+        $("img").animate({left: '250px'});
         });
 });
